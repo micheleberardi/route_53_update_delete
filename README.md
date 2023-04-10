@@ -22,7 +22,7 @@ You can save the script in a file, for example route53_remove_ip.py, and then ex
 4. Execute the script using the following command:
 
 ```
-python route53_remove_ip.py
+python route53_handle_ip.py
 ```
 
 This command assumes you have Python installed and the necessary boto3 library. If you haven't installed boto3, you can do so by running pip install boto3. Also, ensure that your AWS credentials are properly configured as described in my earlier response.
