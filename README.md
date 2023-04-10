@@ -35,5 +35,6 @@ Also, ensure that your AWS credentials are properly configured
 pip install boto3
 ````
 
-Then, configure your AWS credentials. You can do this by setting the AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, and AWS_DEFAULT_REGION environment variables or using the aws configure command. More information on AWS credentials can be found in the official [AWS documentation.](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
+Then, configure your AWS credentials. 
+You can do this by setting the AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, and AWS_DEFAULT_REGION environment variables or using the aws configure command. More information on AWS credentials can be found in the official [AWS documentation.](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
 
