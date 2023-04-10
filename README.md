@@ -14,17 +14,31 @@
 
 # HOW TO USE IT
 
-You can save the script in a file, for example route53_remove_ip.py, and then execute it using Python. Follow these steps:
+You can save the script in a file, for example route53_handle_ip.py, and then execute it using Python. Follow these steps:
 
-1. Save the script in a file named route53_remove_ip.py.
+1. Save the script in a file named route53_handle_ip.py.
 2. Open a terminal/command prompt.
-3. Navigate to the directory containing the route53_remove_ip.py file.
+3. Navigate to the directory containing the route53_handle_ip.py file.
 4. Execute the script using the following command:
 
 ```
 python route53_handle_ip.py
 ```
 
-This command assumes you have Python installed and the necessary boto3 library. If you haven't installed boto3, you can do so by running pip install boto3. Also, ensure that your AWS credentials are properly configured as described in my earlier response.
+This command assumes you have Python installed and the necessary boto3 library. 
+If you haven't installed boto3, you can do so by running pip install boto3. 
+Also, ensure that your AWS credentials are properly configured
+
+# STEP TO CONFIGURE AWS CREDENTIALS
+
+```
+pip install boto3
+````
+
+Then, configure your AWS credentials. You can do this by setting the AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, and AWS_DEFAULT_REGION environment variables or using the aws configure command. More information on AWS credentials can be found in the official [AWS documentation.](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
+
+Here's a Python script that demonstrates how to add or remove an IP address from an existing A record in a Route 53 hosted zone:
+
+
 
 When you run the script, it will search for the specified IP address in all hosted zones in your AWS account and remove the IP from any A records where it is found.
