@@ -37,8 +37,3 @@ pip install boto3
 
 Then, configure your AWS credentials. You can do this by setting the AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, and AWS_DEFAULT_REGION environment variables or using the aws configure command. More information on AWS credentials can be found in the official [AWS documentation.](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
 
-Here's a Python script that demonstrates how to add or remove an IP address from an existing A record in a Route 53 hosted zone:
-
-
-
-When you run the script, it will search for the specified IP address in all hosted zones in your AWS account and remove the IP from any A records where it is found.
