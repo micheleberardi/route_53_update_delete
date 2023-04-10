@@ -11,3 +11,20 @@
 * Replace the ip_address_to_remove variable with the IP address you want to remove. 
 
 * The script will search all hosted zones in your AWS account and remove the IP address from any A records where it is found.
+
+# HOW TO USE IT
+
+You can save the script in a file, for example route53_remove_ip.py, and then execute it using Python. Follow these steps:
+
+1. Save the script in a file named route53_remove_ip.py.
+2. Open a terminal/command prompt.
+3. Navigate to the directory containing the route53_remove_ip.py file.
+4. Execute the script using the following command:
+
+```
+python route53_remove_ip.py
+```
+
+This command assumes you have Python installed and the necessary boto3 library. If you haven't installed boto3, you can do so by running pip install boto3. Also, ensure that your AWS credentials are properly configured as described in my earlier response.
+
+When you run the script, it will search for the specified IP address in all hosted zones in your AWS account and remove the IP from any A records where it is found.
